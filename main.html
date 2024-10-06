@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Todolist</title>
+    <style>
+        .todo{
+            display: grid;
+            grid-template-columns: 200px 150px 100px;
+        }
+        .todo-name{
+            margin-right: 10px;
+        }
+
+        .todo_js{
+            display: grid;
+            grid-template-columns: 200px 150px 100px;
+        }
+    </style>
+</head>
+<body>
+    <p>Todo list</p>
+    <div class="todo">
+        <div class="todo-name">
+            <input type="text" placeholder="Todo name" class="input_name">
+        </div>
+        <div class="todo-date">
+            <input type="date" class="input_date">
+        </div>
+        <div class="todo-button">
+            <button onclick="todo_button()">Add</button>
+        </div>
+    </div>
+
+    <div class="todo_js"></div>
+
+    <script src="main.js"></script>
+</body>
+</html>
